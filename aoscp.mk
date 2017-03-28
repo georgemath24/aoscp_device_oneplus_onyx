@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/onyx/device.mk)
 
 # Inherit some common Cosmic stuff.
-$(call inherit-product, vendor/aoscp/config/common.mk)
+$(call inherit-product, vendor/aoscp/configs/common.mk)
 
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/onyx/onyx-vendor.mk)
